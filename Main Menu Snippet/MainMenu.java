@@ -32,7 +32,7 @@ public class MainMenu extends GuiScreen{
 	public void drawScreen(int mouseX, int mouseY, float partialTicks) {
 
 		ScaledResolution scaledRes = new ScaledResolution(mc);
-		this.mc.getTextureManager().bindTexture(new ResourceLocation("client/bg.png"));
+		this.mc.getTextureManager().bindTexture(new ResourceLocation("client/bg.jpg"));
 		Gui.drawModalRectWithCustomSizedTexture(0, 0, 0, 0, width, height, width,height);
 		super.drawScreen(mouseX, mouseY, partialTicks);
 		mc.fontRendererObj.drawStringWithShadow("Copyright Mojang AB. Do not distribute!", width - mc.fontRendererObj.getStringWidth("Copyright Mojang AB. Do not distribute!") - 2, height - mc.fontRendererObj.FONT_HEIGHT - 2, -1);
